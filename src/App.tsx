@@ -1,9 +1,10 @@
-import Navbar from "#components/Navbar.tsx";
+import {Navbar, Welcome} from "#components/index.tsx";
 
 const App = () => {
     return (
         <main>
             <Navbar />
+            <Welcome />
         </main>
     )
 }
